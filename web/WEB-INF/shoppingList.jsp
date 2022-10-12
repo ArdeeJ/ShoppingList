@@ -13,9 +13,10 @@
     </head>
     <body>
         <h1>Shopping List</h1>
-        <form>
-            Username:<input type="text" name="username" value="${username}">
-            <input type="submit" value="Register name">
-        </form>
+        Hello, ${username}
+        <a href="login?logout">Logout</a>
+        <br>
+        <h1>List</h1>
+        Add item: <input type="text" name="item"> <input type="submit" value="Add">
     </body>
 </html>
