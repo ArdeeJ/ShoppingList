@@ -13,8 +13,9 @@
     </head>
     <body>
         <h1>Shopping List</h1>
-        <form>
-            Username:<input type="text" name="username" value="${username}">
+        <form action="ShoppingList" method="post">
+            Username:<input type="text" name="username" value="username">
+            <input type="hidden" name="action" value="register">
             <input type="submit" value="Register name">
         </form>
             <p>${message}<p>
